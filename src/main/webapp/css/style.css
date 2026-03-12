@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+.center {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.nav {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.inhalt {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+button {
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+input, select, textarea {
+    padding: 5px;
+}
+
+.meldung {
+    background: #d4edda;
+    color: #155724;
+    padding: 4px 12px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    display: inline-block;
+    margin-left: 10px;
+    transition: opacity 1.5s ease;
+}
+
+.fehler {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 4px 12px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    display: inline-block;
+    margin-left: 10px;
+    transition: opacity 1.5s ease;
+}
+
+.bewertung {
+    background: white;
+    border-left: 3px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 20px 0;
+}
